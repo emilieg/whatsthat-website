@@ -15,7 +15,17 @@
     text-align:center;
   }
 
+/*#section0 {
+  background-color: #8EBA43 !important;
+}*/
 
+#section0 {
+  background: url(../img/muffin.jpg) !important;
+  -webkit-background-size: cover !important;
+  -moz-background-size: cover !important;
+  -o-background-size: cover !important;
+  background-size: cover !important;
+}
 
 @CHARSET "ISO-8859-1";
 /* Reset CSS
@@ -99,4 +109,15 @@ p{
 
 .screens {
   width: 20% !important;
+}
+
+h1 {
+    font-size: 4.2rem;
+    line-height: 116%;
+    margin: -18.9rem 0 1.68rem 0 !important;
+}
+
+
+body {
+  background-color: transparent !important;
 }
