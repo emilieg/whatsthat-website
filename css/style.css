@@ -1,0 +1,10 @@
+body {
+  background: url(../img/WT-WEB.png);
+  background-size: cover;
+}
+
+h1 {
+  font-family: 'Nixie One';
+  float: right;
+  font-size: 80px;
+}
