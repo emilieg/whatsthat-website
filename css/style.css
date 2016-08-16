@@ -27,13 +27,36 @@ h3 {
   margin-right: 80px;
 }
 
+
+h2 {
+  font-family: 'Open Sans';
+  clear: right;
+  float: right;
+  font-size: 25px;
+  text-align: center;
+  width: 500px;
+  margin-top: 30px;
+  color: #e76b6b;
+  margin-right: 80px;
+}
+
 .icons {
   clear: right;
   float: right;
-  margin-right: 200px;
+  margin-right: 225px;
+  display: block;
+
 }
 
 .social {
   padding: 10px 10px 10px 10px;
+}
+
+.appstore {
+  clear: right;
+  float: right;
+  margin-left: 50px;
+  display: block;
+  margin-right: 170px;
 }
 
