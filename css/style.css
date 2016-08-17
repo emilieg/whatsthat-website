@@ -4,59 +4,63 @@ body {
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  padding-right: 50px;
-
+  /*padding-right: 50px;*/
+}
+.description {
+  margin-top: 150px;
 }
 
 h1 {
   font-family: 'Nixie One';
-  float: right;
-  font-size: 100px;
+  /*float: right;*/
+/*  font-size: 100px;*/
+  text-align: center;
+  font-weight: bolder;
   color: #e76b6b;
 }
 
 h3 {
   font-family: 'Open Sans';
-  clear: right;
-  float: right;
+  /*clear: right;*/
+  /*float: right;*/
   font-size: 25px;
   text-align: center;
-  width: 500px;
-  margin-top: 10px;
+  /*margin-top: 10px;*/
   color: #e76b6b;
-  margin-right: 80px;
+  /*margin-right: 80px;*/
 }
 
 
 h2 {
   font-family: 'Open Sans';
-  clear: right;
-  float: right;
+  /*clear: right;*/
+  /*float: right;*/
   font-size: 25px;
   text-align: center;
-  width: 500px;
-  margin-top: 30px;
+  /*margin-top: 30px;*/
   color: #e76b6b;
-  margin-right: 80px;
+/*  margin-right: 80px;*/
 }
 
 .icons {
-  clear: right;
+/*  clear: right;
   float: right;
   margin-right: 225px;
-  display: block;
-
+  display: block;*/
+  text-align: center;
 }
 
 .social {
   padding: 10px 10px 10px 10px;
+  text-align: center;
 }
 
 .appstore {
-  clear: right;
+/*  clear: right;
   float: right;
   margin-left: 50px;
   display: block;
-  margin-right: 170px;
+  margin-right: 170px;*/
+  text-align: center;
 }
 
