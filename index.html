@@ -18,17 +18,28 @@
   <link rel="stylesheet" type="text/css" href="css/style.css" />
   <link href="https://fonts.googleapis.com/css?family=Nixie+One" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <!-- SCRIPT FILES -->  
   <script type="text/javascript" src="js/script.js"></script>
 </head>
 <body>
-<div class="container">
-  
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo">What's that</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
   <div class="row">
-    <div class="description col s6 push-s6">
-      
+    <div class="col s6">
+      <img class="responsive-img" src="img/WT-WEB.png">
+    </div>
+    <div class="description col s6">
         <h1>What's That?</h1> 
-          <h3>A mobile scanner application that helps educate consumers on the potentially harmful ingredients in the food, cosmetic, and cleaning products they consume.</h3>
+        <!-- <h3>A mobile scanner application that helps educate consumers on the potentially harmful ingredients in the food, cosmetic, and cleaning products they consume.</h3> -->
+        <h3>A mobile app that helps you find out what's in your food.
+        Ever wonder what that ingredient is? Use the app to scan the item by bar code and find out what it is!</h3>
         
         <div class="appstore">
           <img class="responsive-img" src="img/APP.png">
@@ -37,12 +48,21 @@
         <h2>Follow us!</h2>
       
         <div class="icons">
-        <a href="https://www.facebook.com/Whats-That-307913612881749"><img class="social" src="img/Facebook-black.svg"></a>
-        <a href="https://www.instagram.com/whatsthatllc"><img class="social" src="img/Instagram-black.svg"></a>
-        <a href="https://www.twitter.com/whats_that_llc"><img class="social" src="img/Twitter-black.svg"></a>   
-        </div>
-       
+          <a href="https://www.facebook.com/Whats-That-307913612881749"><img class="social" src="img/Facebook-black.svg"></a>
+          <a href="https://www.instagram.com/whatsthatllc"><img class="social" src="img/Instagram-black.svg"></a>
+          <a href="https://www.twitter.com/whats_that_llc"><img class="social" src="img/Twitter-black.svg"></a>   
+        </div>    
     </div>
+  </div>
+  <div class="row">
+    <form class="col s12">
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate">
+          <label for="email" data-error="wrong" data-success="right">Email</label>
+        </div>
+      </div>
+    </form>
   </div>  
 
 

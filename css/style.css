@@ -1,11 +1,17 @@
 body {
-  background: url(../img/background.png);
+  /*background: url(../img/background.png);*/
   background-repeat: no-repeat;
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
+  background-color: #42729B;
   /*padding-right: 50px;*/
 }
+
+nav {
+  background-color: #9DA2A5;
+}
+
 .description {
   margin-top: 150px;
 }
