@@ -5,6 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
   background-color: #42729B;
+  color: white;
   /*padding-right: 50px;*/
 }
 
@@ -22,7 +23,7 @@ h1 {
 /*  font-size: 100px;*/
   text-align: center;
   font-weight: bolder;
-  color: #e76b6b;
+  /*color: #e76b6b;*/
 }
 
 h3 {
@@ -32,7 +33,7 @@ h3 {
   font-size: 25px;
   text-align: center;
   /*margin-top: 10px;*/
-  color: #e76b6b;
+  /*color: #e76b6b;*/
   /*margin-right: 80px;*/
 }
 
@@ -44,7 +45,7 @@ h2 {
   font-size: 25px;
   text-align: center;
   /*margin-top: 30px;*/
-  color: #e76b6b;
+  /*color: #e76b6b;*/
 /*  margin-right: 80px;*/
 }
 
@@ -70,3 +71,10 @@ h2 {
   text-align: center;
 }
 
+.safety-icon {
+
+}
+
+.safety-icons {
+  text-align: center;
+}
