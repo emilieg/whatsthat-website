@@ -14,8 +14,17 @@ nav {
   box-shadow: none;
 }
 
+.brand-logo {
+  margin-top: 3vh;
+  margin-left: 10vh;
+}
+
 .description {
-  margin-top: 150px;
+  margin-top: 5vh;
+}
+.app-description-container {
+  margin-top: 10vh;
+  margin-bottom: 15vh;
 }
 
 h1 {
@@ -77,5 +86,10 @@ h2 {
 }
 
 .safety-icons {
+  text-align: center;
+}
+
+.safety-icons-description {
+  /*background-color: white;*/
   text-align: center;
 }
