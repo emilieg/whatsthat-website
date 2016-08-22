@@ -10,7 +10,8 @@ body {
 }
 
 nav {
-  background-color: #9DA2A5;
+  background-color: #42729B;
+  box-shadow: none;
 }
 
 .description {
