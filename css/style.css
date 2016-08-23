@@ -93,8 +93,12 @@ h2 {
   text-align: center;
 }
 
-.safety-icon {
+.how-to {
+  text-align: center;
+}
 
+.img-wrapper {
+  padding: 3vh;
 }
 
 .safety-icons {
@@ -104,4 +108,14 @@ h2 {
 .safety-icons-description {
   /*background-color: white;*/
   text-align: center;
+}
+footer.page-footer {
+  background-color: #9DA2A5;
+}
+.footer-copyright {
+  background-color: #9DA2A5;
+}
+
+footer.page-footer .footer-copyright {
+  background-color: none;
 }
