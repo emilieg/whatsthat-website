@@ -13,6 +13,17 @@ nav {
   background-color: #42729B;
   box-shadow: none;
 }
+ul li {
+  margin-top: 3vh;
+}
+ul li:last-child {
+  margin-right: 5vh;
+}
+
+nav ul a {
+  padding: 0px;
+}
+
 
 .brand-logo {
   margin-top: 3vh;
@@ -68,16 +79,17 @@ h2 {
 }
 
 .social {
-  padding: 10px 10px 10px 10px;
+  /*padding: 10px 10px 10px 10px;*/
   text-align: center;
+  width: 50%;
 }
 
 .appstore {
 /*  clear: right;
   float: right;
   margin-left: 50px;
-  display: block;
-  margin-right: 170px;*/
+  display: block;*/
+  margin: 5vh;
   text-align: center;
 }
 
