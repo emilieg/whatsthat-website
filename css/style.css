@@ -31,7 +31,7 @@ nav ul a {
 }
 
 .description {
-  margin-top: 5vh;
+  /*margin-top: 5vh;*/
 }
 .app-description-container {
   margin-top: 10vh;
@@ -47,28 +47,35 @@ h1 {
   /*color: #e76b6b;*/
 }
 
-h3 {
-  font-family: 'Open Sans';
-  /*clear: right;*/
-  /*float: right;*/
-  font-size: 25px;
-  text-align: center;
-  /*margin-top: 10px;*/
-  /*color: #e76b6b;*/
-  /*margin-right: 80px;*/
-}
-
-
 h2 {
-  font-family: 'Open Sans';
-  /*clear: right;*/
-  /*float: right;*/
-  font-size: 25px;
+  /*font-family: 'Open Sans';*/
   text-align: center;
   /*margin-top: 30px;*/
   /*color: #e76b6b;*/
 /*  margin-right: 80px;*/
 }
+
+h3 {
+  /*font-family: 'Open Sans';*/
+  /*clear: right;*/
+  /*float: right;*/
+  /*font-size: 25px;*/
+  text-align: center;
+  /*margin-top: 10px;*/
+  /*color: #e76b6b;*/
+  /*margin-right: 80px;*/
+}
+h4 {
+  text-align: center;
+}
+h5 {
+  text-align: center;
+}
+
+.btn {
+  background-color: #7ACDC8;
+}
+
 
 .icons {
 /*  clear: right;
@@ -93,10 +100,20 @@ h2 {
   text-align: center;
 }
 
+input#email{
+  border: 5px solid #eee ;
+  background-color: white;
+  text-align: center;
+  color: #9DA2A5;
+}
+
 .how-to {
   text-align: center;
 }
 
+.how-to-row {
+  margin-bottom: 10vh;
+}
 .img-wrapper {
   padding: 3vh;
 }
@@ -118,4 +135,7 @@ footer.page-footer {
 
 footer.page-footer .footer-copyright {
   background-color: none;
+}
+.footer-icon {
+  width: 5%;
 }
