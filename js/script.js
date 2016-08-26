@@ -32,3 +32,4 @@
 //    if(currentWord >= words.length) currentWord = 0;
 //    element.textContent = words[currentWord];
 // }, 4000);
+  $('.carousel.carousel-slider').carousel({full_width: true});
