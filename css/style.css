@@ -104,7 +104,12 @@ input#email{
 }
 
 .how-to-row {
-  margin-bottom: 10vh;
+  height: 100vh;
+  display: table;
+}
+.vertical-align {
+  display: table-cell;
+  vertical-align: middle;
 }
 .img-wrapper {
   padding: 3vh;
