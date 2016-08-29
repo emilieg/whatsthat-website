@@ -48,14 +48,10 @@ nav ul a:hover {
 }
 .app-description-container {
   margin-top: 10vh;
-  margin-bottom: 15vh;
 }
 
 h1 {
-
   text-align: center;
-  /*font-weight: bolder;*/
-
 }
 
 h2 {
@@ -115,6 +111,9 @@ input#email{
   padding: 3vh;
 }
 
+.width {
+  max-width: 45% !important;
+}
 .safety-icons {
   text-align: center;
 }
