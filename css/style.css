@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: 'Lato', sans-serif;
 }
 body {
   background-color: #42729B;
@@ -52,6 +53,7 @@ nav ul a:hover {
 
 h1 {
   text-align: center;
+  font-weight: 300;
 }
 
 h2 {
@@ -60,12 +62,23 @@ h2 {
 
 h3 {
   text-align: center;
+  font-weight: 300;
 }
 h4 {
   text-align: center;
 }
 h5 {
   text-align: center;
+}
+
+p {
+  font-weight:300;
+  font-size: 2em;
+  text-align: center;
+}
+
+.highlight {
+  color: #ffda44;
 }
 
 .btn {
@@ -102,6 +115,9 @@ input#email{
 .how-to-row {
   height: 100vh;
   display: table;
+}
+.how-it-works {
+  margin-bottom: 5vh;
 }
 .vertical-align {
   display: table-cell;
